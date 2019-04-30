@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+  font-family: 'Avenir';
+  background: #000000;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.navbar{
+	display: flex;
+	width: 100%;
+	height: 35px;
+	background: #1b1b1c;
+	align-content: space-around;
+	position: fixed;
+	padding: 11px 0px;
+  z-index: 1000;
+}
+
+#nav-links {
+  margin-left: auto;
+	margin-right: 0px;
+	margin-top: 5px;
+	height: 20px;
+	border-radius: 10px;
+	padding: 4px 25px;
+}
+
+#link-item {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#logo {
+	margin-left: 15px;
+	margin-bottom: 20px;
+	height: 35px;
+}
+
+.firstrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper {
+  position: relative;
+}
+
+#predictev {
+  height: 280px;
+  margin-top: 7%;
+  /*margin-left: 1%;*/
+}
+
+#pev {
+  font-size: 36px;
+  color: white;
+  /*text-align: center;
+  padding-top: 5%;*/
+  z-index: 50;
+  position: absolute;
+  top: 170px;
+  left: 270px;
+  display: none;
+}
+
+#sparksports {
+  height: 283px;
+  margin-top: 50px;
+}
+
+#spark {
+  font-size: 36px;
+  color: white;
+  /*text-align: center;
+  padding-top: 5%;*/
+  z-index: 50;
+  position: absolute;
+  top: 170px;
+  left: 960px;
+  display: none;
+}
+
+#afco {
+  height: 370px;
+  margin-top: -3px;
+  z-index: 1;
+}
+
+#andrew {
+  font-size: 36px;
+  color: white;
+  z-index: 50;
+  position: absolute;
+  top: 500px;
+  left: 495px;
+  display: none;
+}
+
+.secondrow {
+  display: flex;
+  flex-direction: row;
+}
+
+#innod {
+  height: 280px;
+}
+
+#innovative {
+  font-size: 36px;
+  color: white;
+  z-index: 50;
+  position: absolute;
+  top: 820px;
+  left: 190px;
+  display: none;
+}
+
+#ys {
+  font-size: 36px;
+  color: white;
+  z-index: 50;
+  position: absolute;
+  top: 820px;
+  left: 970px;
+  display: none;
+}
+
+#yoursports {
+  height: 280px;
+}
+
+#predictev:hover {
+  opacity: 0.2;
+  transition: 0.2s;
+}
+
+#predictev:hover + #pev {
+  display: inline;
+}
+
+#sparksports:hover + #spark {
+  display: inline;
+}
+
+#sparksports:hover {
+  opacity: 0.2;
+  transition: 0.2s;
+}
+
+#afco:hover {
+  opacity: 0.2;
+  transition: 0.2s;
+}
+
+#afco:hover + #andrew {
+  display: inline;
+}
+
+#innod:hover {
+  opacity: 0.2;
+  transition: 0.2s;
+}
+
+#innod:hover + #innovative {
+  display: inline;
+}
+
+#yoursports:hover {
+  opacity: 0.2;
+  transition: 0.2s;
+}
+
+#yoursports:hover + #ys {
+  display: inline;
+}

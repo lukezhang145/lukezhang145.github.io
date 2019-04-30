@@ -1,0 +1,147 @@
+body {
+  margin: 0px;
+  font-family: 'Avenir';
+  background: #232323;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.navbar{
+	display: flex;
+	width: 100%;
+	height: 35px;
+	background: #1b1b1c;
+	align-content: space-around;
+	position: fixed;
+	padding: 11px 0px;
+  z-index: 100;
+}
+
+#nav-links {
+  margin-left: auto;
+	margin-right: 0px;
+	margin-top: 5px;
+	height: 20px;
+	border-radius: 10px;
+	padding: 4px 25px;
+}
+
+#link-item {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#logo {
+	margin-left: 15px;
+	margin-bottom: 20px;
+	height: 35px;
+}
+
+#laptop {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -27%);
+  width: 35%;
+  z-index: 500;
+}
+
+#lamp {
+  height: 750px;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+#aaker {
+  height: 400px;
+  position: absolute;
+  top: 23%;
+  left: 70%;
+}
+
+#nike {
+  height: 375px;
+  position: absolute;
+  top: 25%;
+  left: 75%;
+}
+
+#notes {
+  height: 400px;
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  z-index: -1;
+}
+
+#pen {
+  height: 200px;
+  position: absolute;
+  top: 55%;
+  left: 29%;
+  z-index: -3;
+}
+
+#speaker {
+  height: 130px;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+}
+
+.circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+  top: 45.2%;
+  left: 5.4%;
+  background-color: #00B2BF;
+  z-index: -100;
+
+}
+
+#speaker:hover + .circle {
+  animation: pulse 2s infinite;
+}
+
+#coffee {
+  height: 150px;
+  position: absolute;
+  top: 80%;
+  left: 75%;
+}
+
+#coffee:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease;
+}
+
+@keyframes pulse {
+	from {
+	  opacity: 1;
+	  transform: scale(1);
+	}
+	to {
+	  opacity: 0;
+	  transform: scale(1.5);
+	}
+}
+
+h1 {
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+
+p {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  margin-top: -45px;
+}
